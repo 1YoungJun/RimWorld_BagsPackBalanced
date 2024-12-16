@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Apparel_Sack.label>자루 가방</Apparel_Sack.label>
+	<Apparel_Sack.description>자루 가방은 다양한 물품을 담기 위해 사용되는 큰 가방으로, 튼튼한 소재로 만들어져 무거운 짐을 쉽게 운반할 수 있습니다.</Apparel_Sack.description>
+	<Apparel_Pouch.label>파우치</Apparel_Pouch.label>
+	<Apparel_Pouch.description>파우치는 개인 물품을 담기 위해 사용되는 작은 가방으로, 주로 가죽이나 천으로 만들어지며 벨트에 쉽게 부착할 수 있습니다.</Apparel_Pouch.description>
+	<Apparel_FieldBag.label>야전 배낭</Apparel_FieldBag.label>
+	<Apparel_FieldBag.description>야전 배낭은 현장에서 장비와 물자를 운반하기 위해 설계된 내구성이 뛰어나고 넉넉한 가방입니다.</Apparel_FieldBag.description>
+	<Apparel_CarryingBundle.label>등짐 꾸러미</Apparel_CarryingBundle.label>
+	<Apparel_CarryingBundle.description>등짐 꾸러미는 물품을 쉽게 운반할 수 있도록 묶은 가방으로, 여행자나 군인이 소지품과 물자를 운반하는 데 주로 사용됩니다.</Apparel_CarryingBundle.description>
+	<Apparel_MilitaryBag.label>군용 가방</Apparel_MilitaryBag.label>
+	<Apparel_MilitaryBag.description>군용 가방은 군인을 위해 설계된 내구성이 뛰어나고 넉넉한 공간을 가진 가방으로, 임무 중 장비와 물자를 운반하는 데 적합합니다.</Apparel_MilitaryBag.description>
+	<Apparel_AdvancedMilitaryBag.label>고급 군용 가방</Apparel_AdvancedMilitaryBag.label>
+	<Apparel_AdvancedMilitaryBag.description>고급 군용 가방은 내구성이 향상되고 여러 개의 수납 공간을 갖추어, 장기 임무 중인 군인에게 뛰어난 활용도와 용량을 제공합니다.</Apparel_AdvancedMilitaryBag.description>
+</LanguageData>

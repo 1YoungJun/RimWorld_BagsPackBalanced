@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Bags Pack Balanced</name>
+	<author>WonYoungjun</author>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/OldPacksIcon</modIconPath>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>WonYoungjun.BagsPack</packageId>
+	<description>This mod adds bags that are useful across various eras. Additionally, the weight of the bags has been adjusted to reflect realistic values.</description>
+</ModMetaData>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Sack -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_Sack</defName>
+		<label>sack</label>
+		<description>A sack, a large bag used for carrying various items, is made from durable materials to easily transport heavy loads.</description>
+		<graphicData>
+			<texPath>Things/Sack/Sack</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<Insulation_Cold>2</Insulation_Cold>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.5</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>10</CarryingCapacity>
+			<MoveSpeed>-0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Sack/Sack</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+			   <li>Back</li>
+			</layers>
+			<tags>
+				<li>Neolithic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<!-- Pouch -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_Pouch</defName>
+		<label>pouch</label>
+		<description>A pouch, a small bag used for carrying personal items, is often made from leather or cloth and can be easily attached to a belt.</description>
+		<graphicData>
+			<texPath>Things/Pouch/Pouch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<Insulation_Cold>2</Insulation_Cold>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>0.5</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>2</CarryingCapacity>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pouch/Pouch</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Back</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>Clothing</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- FieldBag -->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_FieldBag</defName>
+		<label>field bag</label>
+		<description>A field bag, designed for carrying equipment and supplies in the field, is durable and spacious.</description>
+		<graphicData>
+			<texPath>Things/FieldBag/FieldBag</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<Insulation_Cold>2</Insulation_Cold>
+			<MaxHitPoints>130</MaxHitPoints>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>1</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>15</CarryingCapacity>
+			<MoveSpeed>-0.15</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/FieldBag/FieldBag</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Back</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>Clothing</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<!-- carrying bundle -->
+	
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_CarryingBundle</defName>
+		<label>carrying bundle</label>
+		<description>A carrying bundle, a tied-up collection of items for easy transport, is typically used by travelers and soldiers to carry belongings and supplies.</description>
+		<graphicData>
+			<texPath>Things/CarryingBundle/CarryingBundle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<WoodLog>20</WoodLog>
+		</costList>
+		<statBases>
+			<Insulation_Cold>2</Insulation_Cold>
+			<MaxHitPoints>130</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1.2</Mass>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>20</CarryingCapacity>
+			<MoveSpeed>-0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/CarryingBundle/CarryingBundle</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Back</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>Clothing</li>
+		</tradeTags>
+	</ThingDef> 
+
+	<!-- Military Bag -->
+	
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_MilitaryBag</defName>
+		<label>military bag</label>
+		<description>A military bag, designed for soldiers, is rugged and spacious, ideal for carrying essential gear and supplies during missions.</description>
+		<graphicData>
+			<texPath>Things/MilitaryBag/MilitaryBag</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<statBases>
+			<Insulation_Cold>2</Insulation_Cold>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>15000</WorkToMake>
+			<Mass>1</Mass>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>30</CarryingCapacity>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/MilitaryBag/MilitaryBag</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Back</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+			</tags>
+		    <defaultOutfitTags>
+				<li>Soldier</li>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<tradeTags>
+			<li>Clothing</li>
+		</tradeTags>
+	</ThingDef>
+
+		<!--Advanced Military Bag <Components>3</Components>-->
+	
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_AdvancedMilitaryBag</defName>
+		<label>advanced military bag</label>
+		<description>An advanced military bag, featuring enhanced durability and multiple compartments, offers superior organization and capacity for soldiers.</description>
+		<graphicData>
+			<texPath>Things/AdvancedMilitaryBag/AdvancedMilitaryBag</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<Plasteel>10</Plasteel>
+		</costList>
+		<statBases>
+			<Insulation_Cold>2</Insulation_Cold>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>1</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>40</CarryingCapacity>
+			<MoveSpeed>-0.15</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/AdvancedMilitaryBag/AdvancedMilitaryBag</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>Back</li>
+			</layers>
+			<tags>
+				<li>IndustrialAdvanced</li>
+			</tags>
+		    <defaultOutfitTags>
+				<li>Soldier</li>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<tradeTags>
+			<li>Clothing</li>
+		</tradeTags>
+	</ThingDef> 
+
+</Defs>
